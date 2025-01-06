@@ -1,0 +1,126 @@
+/* Base styles for the modify section */
+.section-modify {
+    width: 80%;
+    max-width: 800px;
+    padding: 40px 30px;
+    margin: 40px auto;
+    background: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #e0e0e0;
+    text-align: center;
+}
+
+/* Header styles */
+.section-modify h1, .section-modify h2 {
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 20px;
+    text-align: center; /* Center-align text within form groups */
+}
+
+/* Container for modify types and checkboxes */
+.modify-type-container, .record-type-container, .person-type-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px; /* Add space between containers */
+}
+
+/* Label styles */
+.form-group label {
+    font-size: 18px;
+    color: #e0e0e0;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Input styles for checkboxes and radio buttons */
+.form-group input[type="checkbox"], 
+.form-group input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+/* Input styles for text fields */
+.form-group input[type="text"] {
+    width: 100%; /* Make input fields take up the full width */
+    max-width: 400px; /* Set a max-width for input fields */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #333;
+    font-size: 16px;
+    margin: 10px auto; /* Center input fields horizontally */
+    display: block; /* Ensure input fields are displayed as block elements */
+}
+
+/* Container for action buttons */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Button styles */
+.form-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Submit button styles */
+.form-group button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Reset button styles */
+.form-group button[type="reset"] {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.form-group button[type="reset"]:hover {
+    background-color: #e53935;
+}
+
+/* Improve the appearance of checkboxes */
+.person-type-container label,
+.record-type-container label,
+.modify-type-container label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+.form-group input[type="checkbox"],
+.form-group input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+/* Adjust spacing and alignment of the person type container */
+.person-type-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}

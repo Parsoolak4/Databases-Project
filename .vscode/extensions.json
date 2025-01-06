@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "jebbs.plantuml",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-mysql",
+    ]
+}

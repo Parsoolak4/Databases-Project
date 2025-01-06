@@ -1,0 +1,132 @@
+/* Base styles for the search section */
+.section-search {
+    width: 80%;
+    max-width: 800px;
+    padding: 40px 30px;
+    margin: 40px auto;
+    background: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #e0e0e0;
+    text-align: center;
+}
+
+/* Header styles */
+.section-search h1, .section-search h2 {
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Container for person types and checkboxes */
+.person-type-container, .checkboxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Label styles */
+.form-group label {
+    font-size: 18px;
+    color: #e0e0e0;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Input styles for checkboxes and radio buttons */
+.form-group input[type="checkbox"], 
+.form-group input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+/* Select dropdown styles */
+.form-group select {
+    width: calc(50% - 5px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Container for sort options */
+.sort-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+.form-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Submit button styles */
+.form-group button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Reset button styles */
+.form-group button[type="reset"] {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.form-group button[type="reset"]:hover {
+    background-color: #e53935;
+}
+
+/* Sort button styles */
+.form-group button[name="sort"] {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.form-group button[name="sort"]:hover {
+    background-color: #1e88e5;
+}
+
+/* Container for action buttons */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Container for checkboxes */
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.checkbox-container label {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}

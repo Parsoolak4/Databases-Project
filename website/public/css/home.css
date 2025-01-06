@@ -1,0 +1,78 @@
+/* Section base styles */
+.section-greeting {
+    width: 80%;
+    max-width: 800px;
+    padding: 40px 30px;
+    margin: 40px auto;
+    background: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #e0e0e0;
+}
+
+/* Greeting section styles */
+.section-greeting h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Frequently used section styles */
+.section-frequently-used {
+    width: 80%;
+    max-width: 800px;
+    padding: 40px 30px;
+    margin: 40px auto;
+    background: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.section-frequently-used h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    color: #e0e0e0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.section-frequently-used ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-frequently-used ul li {
+    margin: 10px 0;
+    flex: 1 1 calc(33.333% - 20px);
+    margin-bottom: 20px;
+}
+
+.section-frequently-used ul li a {
+    padding: 15px 20px;
+    display: block;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    background-color: #e0e0e0;
+    color: #333;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section-frequently-used ul li a:hover {
+    background-color: #e0e0e0;
+    color: #333;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: #ff6347;
+}
+
