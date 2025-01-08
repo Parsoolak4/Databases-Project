@@ -1,63 +1,124 @@
-# COMP 353 Project - Youth Soccer Club
+# ⚽ Youth Soccer Club Database Management System
+[![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
 
-## Setup & Installation
+A comprehensive database management system for youth soccer clubs built with PHP and MySQL, featuring dynamic query handling and interactive record management.
 
-### SQLTools
-To connect to MySQL and execute queries directly from VSCODE, you can use this extension:
+## 🚀 Quick Start
+
+### Prerequisites
+- XAMPP
+- VSCode
+- SQLTools Extension
+- Plant-UML Extension
+
+### 🛠️ Installation Steps
+
+1. **SQLTools Setup**
+```bash
+# Database Configuration
+Database Name: warmup
+Username: root
+Password: [Empty Password]
+
+Plant-UML Configuration
+
+
+Install Plant-UML extension
+Configure JAR path in VSCode settings
+Verify installation with test diagram
+
+📊 Database Structure
+Entity-Relationship Diagram
+Show Image
+🎯 Key Features
+📝 Query Management
+
+Dynamic SQL query execution
+File-based query organization
+Professional result presentation
+Interactive record modification
+
+🔄 Record Operations
+FeatureDescriptionIn-place EditingDirect table modificationsDynamic UpdatesReal-time database synchronizationValidationInput verification and error checking
+🎨 User Interface
+
+Professional styling
+Consistent table layouts
+Responsive design
+Enhanced form interactions
+
+🏗️ Project Structure
+Copyyouth-soccer-club/
+├── queries/
+│   └── [SQL query files]
+├── migrations/
+│   └── 0_create_persons.sql
+├── docs/
+│   └── diagrams/
+│       └── er_diagram.drawio.png
+├── css/
+├── js/
+└── php/
+⚙️ Technical Implementation
+Database Features
+
+Custom views for complex queries
+Automated triggers
+Integrity constraints
+Transaction management
+
+Error Management
+
+Comprehensive error handling
+Meaningful error messages
+Connection verification
+Data validation
+
+🌐 Deployment
+Hosting Details
+
+Platform: encs.concordia.ca
+Environment: Production
+Access: Web-based interface
+
+🔧 Development Tools
+Required Extensions
+
+SQLTools
+
+Query execution
+Database connection
+Result visualization
+
+
+Plant-UML
+
+Diagram generation
+Documentation support
+Visual modeling
 
 
 
-**NOTE:** The XAMPP connection is already configured for our workspace, but here are the instructions just in case:
+👥 Contributing
 
-To configure the connection, press CTRL+SHIFT+P to open the command pallet: `SQLTools: Connect`, then press the `+` icon to create a new connection.
+Fork the repository
+Create a feature branch
+Commit your changes
+Push to the branch
+Create a pull request
 
-Open the admin screen for MySQL from XAMPP. On the left, press the `New` button to create a new database called "warmup". Return to VSCode and enter the connection information. Username is "root", for password use the drop down to select "Empty Password", and for database enter "warmup".
+📘 Documentation
 
-You can now execute SQL directly from VSCode. To try it, open one of the `migrations/0_create_persons.sql` file and press CTRL+SHIFT+P, then select `SQLTools Connection: Run this File`
+Complete ER diagram
+Query documentation
+Setup instructions
+Modification guidelines
 
-### Plant-UML VSCODE Extension
-We are using this extension to render diagrams.
+🔒 Security
 
+Input validation
+Error handling
+Connection security
+Data integrity
 
-Install it, and follow the instructions for setting up PlantUML on your OS. Once installed, make sure to open the VSCode extension settings to set the path to the JAR.
-
-## E/R Diagram
-Below is the E/R which describes the domain of the application.
-
-![er diagram](COMP353-Project/docs/diagrams/er_diagram.drawio.png)
-
-## Changes Made During Development
-
-### PHP Code for Query Handling
-We have implemented PHP code to handle queries dynamically by reading SQL queries from files and displaying the results. The queries are mapped to files in the `queries` directory, and results are displayed in a professional manner with options to modify records in place.
-
-### Modifying Records
-- Added functionality to modify records directly from the displayed table.
-- Added JavaScript to handle in-place modifications, making the interface more user-friendly.
-- Ensured that modifications are reflected in the database by dynamically generating SQL queries based on modified attributes.
-
-### CSS Improvements
-- Improved CSS for a professional look and feel.
-- Ensured that the table layout remains consistent and centered even when modification fields are displayed.
-- Added styles for form fields to enhance the user experience.
-
-### Error Handling
-- Improved error handling in PHP to provide meaningful messages and prevent silent failures.
-- Added checks to ensure the database connection is established before performing operations.
-
-### Views and Triggers
-- Implemented views to simplify complex queries and ensure data consistency.
-- Added triggers to handle updates and ensure integrity constraints are maintained in the database.
-
-### Database Connection
-- Centralized database connection handling to ensure it is available across different scripts.
-- Improved connection setup to handle different environments and configurations.
-
-### Code Clean-up
-- Refactored code for better readability and maintainability.
-- Ensured that all scripts follow a consistent coding style and best practices.
-
-## Hosting Information
-The project is hosted on the `encs.concordia.ca` server, providing a reliable and accessible platform for the application's deployment and testing.
-
-By following these steps and implementing the changes, the project is now more robust, user-friendly, and easier to maintain.
